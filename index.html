@@ -22,10 +22,12 @@
         
         <!--Small screens-->
         <div class="w3-display-container w3-hide-medium w3-hide-large">
-            <img src="mylogo.png" width="15%" height="15%">
-                <a href="#about" class="w3-right w3-btn w3-hover-opacity w3-round-small w3-margin-right">About</a>
-                <a href="#gallery" class="w3-right w3-btn w3-hover-opacity w3-round-small w3-margin-right w3-margin-left">Gallery</a>
-                <a href="#home" class="w3-right w3-btn w3-hover-opacity w3-round-small">Home</a>
+            <ul class="w3-navbar w3-black">
+                <li><a href="#about" class="w3-hover-opacity w3-right">About</a></li>
+                <li><a href="#gallery" class="w3-hover-opacity w3-top">Gallery</a></li>
+                <li><a href="#home" class="w3-hover-opacity w3-left">Home</a></li>
+            </ul>
+            <img src="mylogo.png" class="w3-margin" width="15%" height="15%">
         </div>
         
         <div class="w3-display-middle w3-padding w3-card-24 w3-round-large w3-hide-medium w3-hide-large" id="home" style="background-image: url(mybrand.png);background-position: center; background-size: 400%;">
@@ -39,9 +41,9 @@
         <!--Medium and Large Screens-->    
         <div class="bgimg w3-container w3-hide-small w3-margin ">
             <img src="mylogo.png" width="5%" height="5%">
-                <a href="#about" class="w3-right w3-btn w3-hover-opacity w3-round-small w3-margin-right">About</a>
-                <a href="#gallery" class="w3-right w3-btn w3-hover-opacity w3-round-small w3-margin-right w3-margin-left">Gallery</a>
-                <a href="#home" class="w3-right w3-btn w3-hover-opacity w3-round-small">Home</a>
+            <a href="#about" class="w3-right w3-btn w3-hover-opacity w3-round-small w3-margin-right">About</a>
+            <a href="#gallery" class="w3-right w3-btn w3-hover-opacity w3-round-small w3-margin-right w3-margin-left">Gallery</a>
+            <a href="#home" class="w3-right w3-btn w3-hover-opacity w3-round-small">Home</a>
             <!--Contact Button
             <div class="w3-right w3-margin">
                 <button onclick="document.getElementById('id01').style.display='block'" class="w3-btn w3-round-jumbo">Contact Me</button>
