@@ -11,7 +11,7 @@
             body,h1 {font-family: "Raleway", sans-serif}
             body, html {height: 100%}
             .bgimg {
-                background-image: url(mybrand.png);
+                background-image: url(images/mybrand.png);
                 min-height: 100%;
                 min-width: 100%;
                 background-position: center;
@@ -22,9 +22,7 @@
         </style>
     </head>
     
-    <body class="w3-animate-opacity w3-light-grey">
-        <!-- Home-->
-        <div id="home"></div>
+    <body class="w3-animate-opacity w3-light-grey" id="home">
         
         <!--Small Screens-->
         <header class="w3-black w3-top ">
@@ -33,66 +31,76 @@
                 <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-xxlarge" style="float: right;">&times;</a><br />
                 <a href="#home" class="w3-hover-opacity">Home</a>
                 <a href="#gallery" class="w3-hover-opacity">Gallery</a>
+                <a href="#who" class="w3-hover-opacity">About</a>
             </nav>
         </header>
         
         <!--Medium and Large Screens-->
-        <ul class="w3-navbar w3-black w3-top w3-hide-small">
+        <ul class="w3-navbar w3-black w3-top w3-hide-small w3-animate-top">
             <li><a href="#home" class="w3-hover-opacity">Home</a></li>
             <li><a href="#gallery" class="w3-hover-opacity">Gallery</a></li>
+            <li><a href="#who" class="w3-hover-opacity">About</a></li>
         </ul>
         
-        <div class="bgimg w3-container w3-hide-small w3-margin "></div>
+        <div class="bgimg w3-container w3-hide-small w3-margin"></div>
         
         <!--Header-->
         <div class="w3-row-padding w3-display-middle w3-padding w3-card-24 w3-round-large w3-hide-small" style="background-color: rgba(240,240,240,0.95)">
             <br />
-            <div class="w3-center w3-animate-zoom">
-                <img src="mylogo.png" width="25%" height="25%">
+            <div class="w3-center w3-animate-opacity">
+                <img src="images/mylogo.png" width="25%" height="25%">
             </div>
             <br />
-            <hr class="w3-border-black" style="margin:auto;width:60%;">
-            <p class="w3-xlarge w3-center">Graphic designer, Illustrator, Artist</p>
-            <hr class="w3-border-black" style="margin:auto;width:60%;">
-            <p class="w3-large w3-center">Business inquiry? Email me at<br /> <span><b>kaimereesewelsh@gmail.com</b></span></p>
+            <hr class="w3-border-black w3-animate-zoom" style="margin:auto;width:60%;">
+            <p class="w3-xlarge w3-center w3-animate-opacity">Part-time artist, full-time human.</p>
+            <hr class="w3-border-black w3-animate-zoom" style="margin:auto;width:60%;">
+            <p class="w3-large w3-center w3-animate-opacity">Business inquiry? Email me at<br /> <span><b>kaimereesewelsh@gmail.com</b></span></p>
         </div>
         
         <!-- Small screen header-->
         <div class="w3-padding w3-center w3-margin w3-hide-medium w3-hide-large" id="about">
             <hr class="w3-border-black w3-padding" style="margin:auto;width:60%;">
-            <img src="mylogo.png" class="w3-center" width="200" height="200px">
+            <img src="images/mylogo.png" class="w3-center" width="200" height="200px">
             <p class="w3-large w3-center">Business inquiry? Email me at<br /> <span><b>kaimereesewelsh@gmail.com</b></span></p>
         </div>
         
         <!--About-->
-        <div class="w3-padding w3-row-padding w3-margin">
+        <div class="w3-padding w3-row-padding w3-margin" id="who">
             <hr class="w3-border-black" style="margin:auto;width:60%;">
             <h3 class="w3-center w3-jumbo">Who am I?</h3>
             <hr class="w3-border-black" style="margin:auto;width:60%;">
-            <h4 class="w3-threequarter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla condimentum erat. Donec vitae metus diam. Morbi libero mauris, placerat vitae est id, tincidunt semper ante. Sed finibus laoreet arcu id consectetur. Nam dignissim ligula ultrices, ornare neque eget, dapibus erat. Mauris quis egestas quam, vitae malesuada sapien. Pellentesque eu ullamcorper risus. Proin finibus, est quis eleifend bibendum, leo diam mattis ipsum, ut ullamcorper risus nisl fermentum nunc. </h4>
-            <img src="mylogo.png" class="w3-round-jumbo w3-righ w3-hide-small" width="200" height="200px">
+            <h4 class="w3-threequarter w3-padding">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla condimentum erat. Donec vitae metus diam. Morbi libero mauris, placerat vitae est id, tincidunt semper ante. Sed finibus laoreet arcu id consectetur. Nam dignissim ligula ultrices, ornare neque eget, dapibus erat. Mauris quis egestas quam, vitae malesuada sapien. Pellentesque eu ullamcorper risus. Proin finibus, est quis eleifend bibendum, leo diam mattis ipsum, ut ullamcorper risus nisl fermentum nunc. </h4>
+            <img src="images/me.jpg" class="w3-padding w3-round-jumbo w3-right w3-hide-small" width="15%">
         </div>
         
         <!--Gallery-->
-        <div id="gallery"></div>
-        <div class="w3-panel w3-row-padding w3-margin" style="margin-bottom:128px">
+        <div class="w3-panel w3-row- w3-margin" id="gallery" style="margin-bottom:128px">
             <hr class="w3-border-black" style="margin:auto;width:60%;">
                 <h3 class="w3-center w3-jumbo">Gallery</h3>
             <hr class="w3-border-black" style="margin:auto;width:60%;">
             <br />
             <div class="w3-third">
-                <img class="w3-padding w3-hover-opacity" src="mybrand.png" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/bulb.jpg" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/penvalley.jpg" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/fence.png" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/joshuatree1.jpg" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/crab.jpg" style="width:100%">
             </div>
             <div class="w3-third">
-                <img class="w3-padding w3-hover-opacity" src="g4155.png" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/citadel.png" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/scrib.png" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/forest.jpg" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/nomad.jpg" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/valley.png" style="width:100%">
             </div>
             <div class="w3-third">
-                <img class="w3-padding w3-hover-opacity" src="mylogo.png" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/penface.jpg" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/nomad.jpg" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/water.png" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/sky.png" style="width:100%">
+                <img class="w3-padding w3-hover-opacity" src="images/sun.jpg" style="width:100%">
             </div>
         </div>
-
-        <!--Spacer-->
-        <div style="height: 200px;"></div>
         
         <!--Footer-->
         <div class="w3-bottom w3-black">
